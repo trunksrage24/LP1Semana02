@@ -6,7 +6,17 @@ namespace Triangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("its suposed to take  int and char and print nr of lines as int with char chosen");
+            //input number and character
+            int number = int.Parse(args[0]);
+            string character = args[1];
+            for (int i = 0; i < number; i += 1)
+            {
+                for (int write = 0; write <= i; write += 1)
+                {
+                    Console.Write($"{character}");
+                }
+                Console.Write("\n");
+            }
         }
     }
 }
