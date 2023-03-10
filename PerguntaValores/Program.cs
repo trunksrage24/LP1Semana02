@@ -11,7 +11,7 @@ namespace PerguntaValores
             double a = double.Parse(Console.ReadLine());
             Console.WriteLine("enter radius value: ");
             double r = double.Parse(Console.ReadLine());
-            double pi = Math.Pi;
+            double pi = Math.PI;
             //calc volume
             double V = pi * Math.Pow(r,2) * a;
             Console.WriteLine("your cylinder volume is: " + V);
