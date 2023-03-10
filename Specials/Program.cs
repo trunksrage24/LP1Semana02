@@ -42,6 +42,14 @@ namespace Specials
             //char
             Console.WriteLine("max value for char " + char.MaxValue);
             Console.WriteLine("min value for char " + char.MinValue);
+
+            //Special values
+            Console.WriteLine("double positive infinity " + double.PositiveInfinity);
+            Console.WriteLine("double negative infinity " + double.NegativeInfinity);
+            Console.WriteLine("float positive infinity " + float.PositiveInfinity);
+            Console.WriteLine("float negative infinity " + float.NegativeInfinity);
+            Console.WriteLine("double NaN " + double.PositiveInfinity / double.PositiveInfinity);
+            Console.WriteLine("float NaN " + float.NaN);
         }
     }
 }
