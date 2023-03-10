@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTMother", "ChatGPTMot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{27AFDC05-78C0-4F86-B457-3545924228B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossSquare", "CrossSquare\CrossSquare.csproj", "{4EA447E7-07C5-4067-8275-53976895EEC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{27AFDC05-78C0-4F86-B457-3545924228B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27AFDC05-78C0-4F86-B457-3545924228B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27AFDC05-78C0-4F86-B457-3545924228B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA447E7-07C5-4067-8275-53976895EEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA447E7-07C5-4067-8275-53976895EEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA447E7-07C5-4067-8275-53976895EEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA447E7-07C5-4067-8275-53976895EEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
