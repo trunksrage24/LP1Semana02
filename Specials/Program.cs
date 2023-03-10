@@ -50,6 +50,27 @@ namespace Specials
             Console.WriteLine("float negative infinity " + float.NegativeInfinity);
             Console.WriteLine("double NaN " + double.PositiveInfinity / double.PositiveInfinity);
             Console.WriteLine("float NaN " + float.NaN);
+
+            //overflow
+            int i = int.MaxValue;
+            Console.WriteLine("overflow int " + (i + (int)1));
+            short s = short.MaxValue;
+            Console.WriteLine("overflow short " + (s + (int)1));
+            long l = long.MaxValue;
+            Console.WriteLine("overflow long " + (l + (int)1));
+            double d = double.MaxValue;
+            Console.WriteLine("overflow double " + (d * 2));
+            byte b = byte.MaxValue;
+            Console.WriteLine("overflow byte " + (Math.Pow(b, b)));
+            float f = float.MaxValue;
+            Console.WriteLine("overflow float " + (f * 2));
+
+            //underflow
+            double db = double.MinValue;
+            Console.WriteLine("underflow double " + (db -= -db * 2));
+            float f1 , f2;
+            f1 = f2 = 10000.0f;
+            Console.WriteLine("underflow float " + (f1 == f2 + 0.0001f));
         }
     }
 }
